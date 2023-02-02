@@ -1,0 +1,150 @@
+.Début{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-bottom: 5px solid #6f6f6f;
+    background-color: white;
+}
+
+.Titre{
+    color: grey;
+    font-family: 'sans-serif;';
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Onglets{
+    margin-top: 3px;
+    margin-left: 500px;
+}
+.Sous-O{
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+
+.Hdp {display: flex; flex-direction: column; align-items: center; 
+	background: url('http://exclaim.ca/images/ovo_u_of_t.png'); background-size: cover; color: white; 
+padding: 40px}
+
+.TT {font-family: montserrat; font-size: 50px}
+
+.ST {font-family: raleway; margin-top: -10px; font-size: 20px; text-align: center;
+border-bottom: 1px solid white;}
+
+.BT {padding: 10px 15px; 
+	background-color: transparent; 
+	color: white; 
+	border: 1px solid white;  
+	font-family: montserrat; 
+	cursor: pointer; 
+	border-radius: 30px;
+	font-size: 20px}
+
+.BT:hover {background-color: black;}
+
+.div-elements {display: flex; justify-content: center;}
+
+.element {background-color: black; color: white;
+width: 900px; height: 300px; margin-bottom: 10px; margin-top: 50px;
+display: flex; justify-content: flex-start; border-radius: 30px}
+
+.Contenu {display: flex; justify-content: center; align-items: center; flex-direction: column; margin-right: 40px; margin-left: 40px;
+margin-bottom: 40px; font-family: montserrat}
+
+.NV {display: flex; justify-content: center;}
+
+.Texte-box {display: flex; justify-content: center;}
+
+.MJ {width: 50%; display: flex; justify-content: flex-end; border-radius: 30px}
+
+.MJ-B {width: 44%; display: flex; justify-content: flex-end; border-radius: 30px}
+
+.banner {
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(https://edgard-lelegant.com/wp-content/uploads/2021/02/2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  padding: 100px 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: montserrat;
+  font-size: 20px;
+}
+
+.banner-content {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.BNR {display: flex; justify-content: center;}
+
+.bleu-btn {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.bleu-btn:hover {background-color: grey;}
+        
+
+.cards {
+  padding: 15px 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  font-family: raleway;
+  margin-top: 50px;
+}
+
+.card-element {
+  width: 30%;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+       
+.white-btn {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.white-btn:hover {background-color: black;}
+
+.Bdp {margin-top: 40px; 
+border-top: 5px solid grey; background-color: black; color: white; 
+padding: 30px 100px;}
+
+.Sv {font-family: montserrat; border-bottom: 1px solid white; width: 15%; padding-bottom: 5px;}
+
+.Services {font-family: raleway; margin-top: 10px; display: flex; justify-content: space-around; flex-wrap: wrap;}
+
+.Service {font-family: raleway; margin-right: 30px; padding: 10px; max-width: 300px}
+.Contact {font-family: montserrat; color: rgb(181, 181, 181);}

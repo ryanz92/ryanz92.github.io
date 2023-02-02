@@ -1,0 +1,33 @@
+.Hdp {display: flex; flex-direction: column; align-items: center; 
+	background: url('http://exclaim.ca/images/ovo_u_of_t.png'); background-size: cover; color: white; 
+padding: 40px}
+
+.TT {font-family: montserrat; font-size: 50px}
+
+.ST {font-family: raleway; margin-top: -10px; font-size: 20px; text-align: center;
+border-bottom: 1px solid white;}
+
+.banner {
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(https://edgard-lelegant.com/wp-content/uploads/2021/02/2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  padding: 100px 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: montserrat;
+  font-size: 20px;
+}
+
+.banner-content {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.BNR {display: flex; justify-content: center;}

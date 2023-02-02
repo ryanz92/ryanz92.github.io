@@ -1,0 +1,31 @@
+.BT {padding: 10px 15px; 
+	background-color: transparent; 
+	color: white; 
+	border: 1px solid white;  
+	font-family: montserrat; 
+	cursor: pointer; 
+	border-radius: 30px;
+	font-size: 20px}
+
+.BT:hover {background-color: black;}
+
+.bleu-btn {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.bleu-btn:hover {background-color: grey;}
+
+.white-btn {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.white-btn:hover {background-color: black;}
